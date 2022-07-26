@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap" rel="stylesheet">
+</head>
+<body">
+  <img id='moonToggle' class='moon' onclick="darkMode()" src="https://cdn.onlinewebfonts.com/svg/img_312366.png">
+  <h1 class='title'>Stopwatch</h1>
+  <div class='parentContainer'>
+    <div class="timeContainer">
+      <h2><span id="minutes">00</span> : <span id="seconds">00</span> : <span id="tens">00</span></h2>
+    </div>
+    <div class="btnContainer">
+      <button id="btnToggle" class='btn' onclick="start()">Start</button>
+      <button id="btnToggle" class='btn' onclick="stop()">Stop</button>
+      <button id="btnToggle" class='btn' onclick="reset()">Reset</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
